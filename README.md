@@ -11,3 +11,4 @@
 ## Papers
 - [Market Microstucture: A Practitioner's Guide](http://www.chesler.us/resources/academia/microstructure_survey_madhavan.pdf)
 - [Statistical Approaches for HFT  Data](https://par.nsf.gov/servlets/purl/10378098)
+- [HFT in LOB](https://math.nyu.edu/~avellane/HighFrequencyTrading.pdf)
