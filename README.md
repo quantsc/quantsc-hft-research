@@ -1,6 +1,22 @@
 # HFT Research with Databento
 
-## Setup Databento API 
+## Problem Setup: 
+### Inputs: 
+- Raw HFT data on individual securities
+- Trading time frame (0.5, 1, 5, 10, 15 seconds) 
+- Cost to make trade 
+
+### Outputs: 
+- Buy/Sell decision with position size 
+
+### Internals: 
+- Preprocessing
+- Feature Creation
+- Input to model
+- Ensemble Models
+- Validate Models
+- Execute/Abstain from trading
+
 
 ## Books on Market Microstructure 
 - Most Widely Accepted Resource: Trading and Exchanges, Larry Harris
