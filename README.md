@@ -1,1 +1,13 @@
 # HFT Research with Databento
+
+## Setup Databento API 
+
+## Books on Market Microstructure 
+- Most Widely Accepted Resource: Trading and Exchanges, Larry Harris
+- More Modern: Market Microstructure in Practice, Lehalle
+- Good, Broad Introduction: Algorithmic & High Frequency Trading, Alvaro Cartea
+- See [Here](https://drive.google.com/drive/folders/1vJjAp80vsVrtAmwEFCjfoozFyOie6PoW?usp=drive_link)
+
+## Papers
+- [Market Microstucture: A Practitioner's Guide](http://www.chesler.us/resources/academia/microstructure_survey_madhavan.pdf)
+- [Statistical Approaches for HFT  Data](https://par.nsf.gov/servlets/purl/10378098)
