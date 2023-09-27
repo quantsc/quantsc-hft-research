@@ -1,28 +1,13 @@
 # HFT Research with Databento
+## Summary
+We are analyzing market microstructure data from 2018-2023 of the top 50 and bottom 50 tickers (by volume) of the S & P 500, with the intent of using this data to predict short term price movements.  We first are conducting a literature review of market microstructure features, implementing them, and seeing how they affect the performance of a linear regression model. After reviewing the literature, we will focus on combining and modifying existing features, as well as developing unsupervised techniques for feature extraction. Once we have established a strong baseline, we will begin using more complex models for prediction. Our primary contributions are a novel demonstration of the use of DataBento data for short term predictions, and any market microstructure features that we create/identify.   
 
-## Problem Setup: 
-### Inputs: 
-- Raw HFT data on individual securities
-- Trading time frame (0.5, 1, 5, 10, 15 seconds) 
-- Cost to make trade 
-
-### Outputs: 
-- Buy/Sell decision with position size 
-
-### Internals: 
-- Preprocessing
-- Feature Creation
-- Input to model
-- Ensemble Models
-- Validate Models
-- Execute/Abstain from trading
+## Related Work 
+The most widely accepted resource is Trading and Exchanges by Dr. Larry Harris. Market Microstructure in Practice is a more recent and accessible book on the subject.  Algorithmic and HFT is a good introduction to the field as a whole. You can find them all [here](https://drive.google.com/drive/folders/1vJjAp80vsVrtAmwEFCjfoozFyOie6PoW?usp=drive_link).
 
 
-## Books on Market Microstructure 
-- Most Widely Accepted Resource: Trading and Exchanges, Larry Harris
-- More Modern: Market Microstructure in Practice, Lehalle
-- Good, Broad Introduction: Algorithmic & High Frequency Trading, Alvaro Cartea
-- See [Here](https://drive.google.com/drive/folders/1vJjAp80vsVrtAmwEFCjfoozFyOie6PoW?usp=drive_link)
+The prevailing wisdom in industry is that there are no good books on the subject, largely because the majority of the experts are employed by proprietary trading firms, and are not looking to publish their strategies. Despite that, most trading firms still recommend that their new researchers read Trading and Exchanges at least, among others. 
+
 
 ## Papers
 - [Market Microstucture: A Practitioner's Guide](http://www.chesler.us/resources/academia/microstructure_survey_madhavan.pdf)
@@ -30,3 +15,4 @@
 - [HFT in LOB](https://math.nyu.edu/~avellane/HighFrequencyTrading.pdf)
 - [HFT for Price Discovery](https://faculty.haas.berkeley.edu/hender/HFT-PD.pdf)
 - [ML for MM & HFT](https://www.cis.upenn.edu/~mkearns/papers/KearnsNevmyvakaHFTRiskBooks.pdf)
+- [Market Microstructure for HFT](https://statmath.wu.ac.at/~hauser/LVs/FinEtricsQF/References/oHara2015JFinEco_HighFrequ_Market_MiicroStruct.pdf)
