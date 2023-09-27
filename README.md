@@ -11,10 +11,4 @@ The most widely accepted resource for Market Microstructure is Trading and Excha
 The prevailing wisdom in industry is that there are no good books on the subject, largely because the majority of the experts are employed by proprietary trading firms, and are not looking to publish their strategies. Despite that, most trading firms still recommend that their new researchers read Trading and Exchanges at least, among others. 
 
 
-## Papers 
-- [Market Microstucture: A Practitioner's Guide](http://www.chesler.us/resources/academia/microstructure_survey_madhavan.pdf)
-- [Statistical Approaches for HFT  Data](https://par.nsf.gov/servlets/purl/10378098)
-- [HFT in LOB](https://math.nyu.edu/~avellane/HighFrequencyTrading.pdf)
-- [HFT for Price Discovery](https://faculty.haas.berkeley.edu/hender/HFT-PD.pdf)
-- [ML for MM & HFT](https://www.cis.upenn.edu/~mkearns/papers/KearnsNevmyvakaHFTRiskBooks.pdf)
-- [Market Microstructure for HFT](https://statmath.wu.ac.at/~hauser/LVs/FinEtricsQF/References/oHara2015JFinEco_HighFrequ_Market_MiicroStruct.pdf)
+
