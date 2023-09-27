@@ -7,8 +7,20 @@ The best introduction to our problem is likely this [blog post](https://blog.hea
 
 The most widely accepted resource for Market Microstructure is Trading and Exchanges by Dr. Larry Harris. Market Microstructure in Practice is a more recent and accessible book on the subject.  Algorithmic and HFT is a good introduction to the field as a whole. You can find them all [here](https://drive.google.com/drive/folders/1vJjAp80vsVrtAmwEFCjfoozFyOie6PoW?usp=drive_link).
 
-
 The prevailing wisdom in industry is that there are no good books on the subject, largely because the majority of the experts are employed by proprietary trading firms, and are not looking to publish their strategies. Despite that, most trading firms still recommend that their new researchers read Trading and Exchanges at least, among others. 
 
-
-
+## Project Breakdown 
+The initial steps are as follows: 
+- Pull the data from Databento, organize it so that it is easy to work with
+- Review the literature, try to find as many features as possible for short term price prediction
+    - If you find a novel feature, put the paper in Resources/Papers.md with a short (1-3 sentence) description of the feature. Ideally, add a function to implement it on the databento data 
+    - If you find an interesting paper related to feature construction/signal extraction, also put it in Papers.md
+- Identify the best modeling techniques that are robust to noise/distributional shifts.
+    - Again, add any relevant papers to papers.md with a short synopsis.
+- After extracting signals and correctly predicting price movements, we need to identify trading rules. A (non-exhaustive) list of things to consider:
+    - How confident are we in out price movement?
+    - With the transaction cost, is it worth it?
+    - How can we account for adverse selection?
+    - Can we identify correlated price movements for arbitrage?
+    - Are there patterns related to time of day?
+    - How does the signal perform on highly liquid vs highly illiquid stocks?
